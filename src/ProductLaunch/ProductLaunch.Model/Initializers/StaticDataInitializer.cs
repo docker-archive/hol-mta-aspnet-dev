@@ -16,6 +16,9 @@ namespace ProductLaunch.Model.Initializers
             AddCountry(context, "GBR", "United Kingdom");
             AddCountry(context, "USA", "United States");
             AddCountry(context, "SWE", "Sweden");
+            AddCountry(context, "DMK", "Denmark");
+            AddCountry(context, "NOR", "Norway");
+            AddCountry(context, "POR", "Portugal");
 
             context.SaveChanges();
         }
